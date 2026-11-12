@@ -1,0 +1,13 @@
+{
+  "spec": ["src/tests/api/**/*.spec.ts"],
+  "extension": ["ts"],
+  "timeout": 30000,
+  "reporter": "mochawesome",
+  "reporter-option": [
+    "reportDir=reports/api",
+    "reportFilename=api-report",
+    "consoleReporter=spec",
+    "html=true",
+    "json=false"
+  ]
+}
